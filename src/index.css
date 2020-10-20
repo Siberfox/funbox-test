@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #1698d9;
+}
+
 @font-face {
   font-family: "Exo2.0";
   src: url("./fonts/Exo20-Thin.woff") format("woff"),
@@ -15,15 +19,6 @@
   font-family: "TrebuchetMS";
   src: url("./fonts/TrebuchetMS.woff") format("woff"),
     url("./fonts/TrebuchetMS.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TrebuchetMS-Bold";
-  src: url("./fonts/TrebuchetMS-Bold.woff") format("woff"),
-    url("./fonts/TrebuchetMS-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
