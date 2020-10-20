@@ -5,7 +5,6 @@ import Card from "../card-item/card-item.component";
 import "./card-list.styles.scss";
 
 const CardList = ({ items, toggleSelect }) => {
-  console.log(items);
   return (
     <ul className="cards__list">
       {items.map((item) => (

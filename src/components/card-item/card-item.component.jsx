@@ -14,7 +14,6 @@ const Card = ({
   selectedText,
   toggleSelect,
 }) => {
-  console.log(selected);
   return (
     <li className="card__container" onClick={() => toggleSelect(id)}>
       <div className="card__item">
