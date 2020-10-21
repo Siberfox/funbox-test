@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7288551aa80d5bc0282c37539950a35e",
+    "revision": "062fd3eb55064e6b673fb8422e041b62",
     "url": "/funbox-test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox-test/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "baf7f0872828fb870c66",
-    "url": "/funbox-test/static/css/main.d0558b30.chunk.css"
+    "revision": "0d60edd67404d8ab69f0",
+    "url": "/funbox-test/static/css/main.cabfcd2d.chunk.css"
   },
   {
     "revision": "0a97a8a8f9d655f51cbf",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox-test/static/js/2.2d22fa32.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "baf7f0872828fb870c66",
-    "url": "/funbox-test/static/js/main.95c2fd6b.chunk.js"
+    "revision": "0d60edd67404d8ab69f0",
+    "url": "/funbox-test/static/js/main.705d79cc.chunk.js"
   },
   {
     "revision": "012fbde4df3c17e8fe22",
@@ -36,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox-test/static/media/Exo20-Thin.b8fd437d.ttf"
   },
   {
-    "revision": "0780b1dab85a0ad94d13c498bbe5c75c",
-    "url": "/funbox-test/static/media/Pattern.0780b1da.png"
+    "revision": "7279aed03f368907acbb393e1cc11ffd",
+    "url": "/funbox-test/static/media/Pattern.7279aed0.png"
   },
   {
-    "revision": "d479314e3c9aa85ccbd24ef14841d9d0",
-    "url": "/funbox-test/static/media/Pattern@2x.d479314e.png"
+    "revision": "4e36521c395bdaa35ebf08bf0719ea16",
+    "url": "/funbox-test/static/media/Pattern@2x.4e36521c.png"
   },
   {
-    "revision": "0a5db29f7face36544ac8f6432a3e8b4",
-    "url": "/funbox-test/static/media/Photo.0a5db29f.png"
+    "revision": "fe3069ab780faaa336e1622c4e00b1f9",
+    "url": "/funbox-test/static/media/Photo.fe3069ab.png"
   },
   {
     "revision": "34723a2fbef5882977e8392d020956af",
