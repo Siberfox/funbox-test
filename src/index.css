@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-a {
-  color: #1698d9;
-}
-
 @font-face {
   font-family: "Exo2.0";
   src: url("./fonts/Exo20-Thin.woff") format("woff"),

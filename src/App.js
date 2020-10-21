@@ -16,6 +16,7 @@ function App() {
       selectedText: "Печень утки разварная с артишоками.",
       disabled: false,
       disabledText: "Печалька, с фуа-гра закончился.",
+      satisfied: false,
     },
     {
       id: 2,
@@ -23,10 +24,11 @@ function App() {
       quantity: "40 порций",
       weight: "2",
       gift: "2 мыши в подарок",
-      selected: false,
+      selected: true,
       selectedText: "Головы щучьи с чесноком да свежайшая сёмгушка.",
       disabled: false,
       disabledText: "Печалька, с рыбой закончился.  ",
+      satisfied: false,
     },
     {
       id: 3,
@@ -38,6 +40,7 @@ function App() {
       selectedText: "Филе из цыплят с трюфелями в бульоне.",
       disabled: true,
       disabledText: "Печалька, с курой закончился.",
+      satisfied: true,
     },
   ]);
 
