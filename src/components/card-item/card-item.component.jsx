@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import CatImage from "../../assets/Photo.png";
 import PropTypes from "prop-types";
@@ -18,20 +18,40 @@ const Card = ({
   toggleSelect,
   satisfied,
 }) => {
+  const [hoverSelect, setHoverSelect] = useState(false);
+
+  const toggleHoverSelect = () => {
+    if (selected) setHoverSelect(true);
+  };
+
+  const selectCard = (id) => {
+    toggleSelect(id);
+    setHoverSelect(false);
+  };
+
   return (
     <li
+      onMouseLeave={() => {
+        toggleHoverSelect();
+      }}
       className={
         "card__container" +
         (disabled
           ? " card__container_disabled"
+          : hoverSelect
+          ? " card__container_selected-hover"
           : selected
           ? " card__container_selected"
           : " card__container_active")
       }
-      onClick={() => toggleSelect(id)}
     >
       <div className="card__item-wrapper">
-        <div className="card__item">
+        <div
+          className="card__item"
+          onClick={() => {
+            selectCard(id);
+          }}
+        >
           <span className="card__item-text">Сказочное заморское яство</span>
           <span className="card__item-text_hidden">Котэ не одобряет?</span>
           <h2 className="card__item-title">Нямушка</h2>
@@ -58,7 +78,14 @@ const Card = ({
       ) : (
         <p className="card__message">
           Чего сидишь? Порадуй котэ,{" "}
-          <a href="_" className="card__link">
+          <a
+            href="_"
+            className="card__link"
+            onClick={(e) => {
+              e.preventDefault();
+              toggleSelect(id);
+            }}
+          >
             купи.
           </a>
         </p>

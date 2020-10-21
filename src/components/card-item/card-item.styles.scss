@@ -80,6 +80,21 @@ $disabled-color: #b3b3b3;
       .card__link {
         color: $selected-color;
       }
+    }
+    &_selected-hover {
+      .card__item-wrapper {
+        background: linear-gradient(
+          135deg,
+          transparent 31px,
+          $selected-color 0
+        );
+      }
+      .card__item-weight {
+        background-color: $selected-color;
+      }
+      .card__link {
+        color: $selected-color;
+      }
 
       &:hover {
         .card__item-wrapper {
