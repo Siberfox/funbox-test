@@ -31,7 +31,7 @@ const Card = ({
 
   return (
     <li
-      onMouseLeave={() => {
+      onMouseEnter={() => {
         toggleHoverSelect();
       }}
       className={
